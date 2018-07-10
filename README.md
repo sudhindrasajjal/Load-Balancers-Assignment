@@ -19,7 +19,7 @@ Load Balancers assignment for Devops Training 2018
 
 2. Using ACLs, implement a routing mechnanism such that any URI ending with **/blog** will be redirected to server-3. [5 points]
 
-   **Bonus**: Make the ACL case insensitive i.e., /blog, /Blog, /BLOG, /BlOg, etc are valid URI. [10 points]
+   **Bonus**: Make the ACL case insensitive i.e., /blog, /Blog, /BLOG, /BlOg, etc are valid URI. [5 points]
 
    _(Rename the haproxy.cfg file to haproxy.cfg.2 and upload it along with a screenshot of the curl request.)_ 
 
@@ -27,7 +27,7 @@ Load Balancers assignment for Devops Training 2018
 
    _(Rename the haproxy.cfg file to haproxy.cfg.3 and upload it along with a screenshot of the curl request.)_
 
-4. Setup haproxies on both your VMs in active-passive mode. Setup keepalived and VRRP instances on both the boxes. Don't worry much about assigning the VIPs to the instances. Aim of this question is to get familiar with the functioning of Keepalived and how VRRP instance blocks work. [10 points]
+4. Setup haproxies on both your VMs in active-passive mode. Setup keepalived and VRRP instances on both the boxes. Don't worry much about assigning the VIPs to the instances. Aim of this question is to get familiar with the functioning of Keepalived and how VRRP instance blocks work. [15 points]
 
    _(Rename the haproxy.cfg file to haproxy.cfg.4 and upload it along with keepalived.conf file.)_
 
