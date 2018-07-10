@@ -34,6 +34,7 @@ Load Balancers assignment for Devops Training 2018
 5. Modify your HAProxy so it can handle SSL/TLS traffic now. All HTTPS traffic must be redirected to server-3. Create a self signed certificate for the same. [20 points]
 
    **Bonus**: Enforce SSL usage in HAProxy i.e., if the frontend connection was not using SSL, then return a 301 redirect to the same URI, but with "https". [10 points]
+   
    _(Rename the haproxy.cfg file to haproxy.cfg.5 and upload it along with a screenshot of the curl requests (Use curl with the -vL flag).)_
 
 **Create a tarball of all the files and mail it to sudhindra.s@media.net**
