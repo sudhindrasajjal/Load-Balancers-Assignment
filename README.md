@@ -19,13 +19,11 @@ Load Balancers assignment for Devops Training 2018
 
 2. Using ACLs, implement a routing mechnanism such that any URI ending with **/blog** will be redirected to server-3. [5 points]
 
-   **Bonus**: Make the ACL case insensitive i.e., /blog, /Blog, /BLOG, /BlOg, etc are valid URI. [5 points]
+   **Bonus**: Make the ACL case insensitive i.e., /blog, /Blog, /BLOG, /BlOg, etc are valid URI. [10 points]
 
    _(Rename the haproxy.cfg file to haproxy.cfg.2 and upload it along with a screenshot of the curl request.)_ 
 
 3. Using ACLs only, blacklist the other VMs' IP on haproxy. Try making a request from that VM now. [10 points]
-
-   **Bonus**: Insert the client IP, Port and Protocol into the header. [5 points]
 
    _(Rename the haproxy.cfg file to haproxy.cfg.3 and upload it along with a screenshot of the curl request.)_
 
