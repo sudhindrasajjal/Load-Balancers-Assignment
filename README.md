@@ -39,4 +39,4 @@ Load Balancers assignment for Devops Training 2018
 
 **Create a tarball of all the files and mail it to sudhindra.s@media.net**
 
-**Deadline is 15/07/2018 (Monday) 12:01 PM**
+**\* Deadline is 15/07/2018 (Monday) 12:01 PM**
