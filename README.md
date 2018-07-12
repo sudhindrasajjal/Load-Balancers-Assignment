@@ -19,7 +19,6 @@ Load Balancers & Tomcat assignment for Devops Training 2018
 
 2. 
     a) enable Tomcat manager with role as manager and password as your adName **[5 points]**
-        - login to manager
 
     b) Build the war **[5 points]**
         - `mvn install` will build the war and place it in the target folder.
