@@ -17,31 +17,31 @@ Load Balancers & Tomcat assignment for Devops Training 2018
 
    _(Rename the haproxy.cfg file to haproxy.cfg.1 and upload it along with a screenshot of the curl request with both server-1 and server-2 down.)_
 
-2. a) -- enable Tomcat manager with role as manager and password as your adName
-      -- login to manager
+2. 
+    a) enable Tomcat manager with role as manager and password as your adName
+        - login to manager
 
-   b) 
-      -- Build the war
-         * "mvn install" will build the war and place it in the target folder.
+    b) Build the war
+        - `mvn install` will build the war and place it in the target folder.
 
-   c) -- Deploy the war to Tomcats
-        * By Copying to webapps
-        * And Via manager
+    c) Deploy the war to Tomcats
+        - By Copying to webapps
+        - And Via manager
 
-   d) -- Change index.jsp in war to display "Hello World from backup" build again using "mvn clean install" and deploy it via tomcat manager on server-3
+    d) Change index.jsp in war to display "Hello World from backup" build again using `mvn clean install` and deploy it via tomcat manager on server-3
 
-   bonus:
+    **Bonus:**
 
-   e) -- Vhosts
-	- Add /etc/hosts entry for www.tomcat-app1.com and www.tomcat-app2.com to point to the IP where tomcat is installed
-	- build 2 wars by modifying the src/main/webapp/index.jsp file and build again using "mvn clean install"
-	- the name of the war can be app1.war and app2.war
-	- create folders app1_webapps and app2_webapps add copy the app1.war and app2.war to their respective folders
-	- Add 2 hosts entries with app1_webapps and app2_webapps as the new appbases
-	- The vhosts if working fine should pickup app1.war and app2.war from app1_webapps and app2_webapps for www.tomcat-app1.com and www.tomcat-app2.com.
+    e) Vhosts:
+        Add /etc/hosts entry for www.tomcat-app1.com and www.tomcat-app2.com to point to the IP where tomcat is installed
+	* build 2 wars by modifying the src/main/webapp/index.jsp file and build again using `mvn clean install`
+	* the name of the war can be app1.war and app2.war
+	* create folders app1_webapps and app2_webapps add copy the app1.war and app2.war to their respective folders
+	* Add 2 hosts entries with app1_webapps and app2_webapps as the new appbases
+	* The vhosts if working fine should pickup app1.war and app2.war from app1_webapps and app2_webapps for www.tomcat-app1.com and www.tomcat-app2.com.
 
-   f) verify the following OOM Exception on catalina.out when 0.0.0.0:8080/hello-world-war-1.0.0/oom is hit.
-	-->> Exception in thread "http-nio-8080-exec-74" java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+    f) verify the following OOM Exception on catalina.out when 0.0.0.0:8080/hello-world-war-1.0.0/oom is hit.
+    `Exception in thread "http-nio-8080-exec-74" java.lang.OutOfMemoryError: Requested array size exceeds VM limit`
 
 
 Using ACLs, implement a routing mechnanism such that any URI ending with **/backup** will be redirected to server-3. [5 points]
