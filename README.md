@@ -1,4 +1,5 @@
 # Load-Balancers-Assignment
+## sample war source https://github.com/efsavage/hello-world-war
 
 Load Balancers & Tomcat assignment for Devops Training 2018
 
@@ -19,7 +20,7 @@ Load Balancers & Tomcat assignment for Devops Training 2018
 2. a) -- enable Tomcat manager with role as manager and password as your adName
       -- login to manager
 
-   b) -- Clone https://github.com/efsavage/hello-world-war
+   b) 
       -- Build the war
          * "mvn install" will build the war and place it in the target folder.
 
