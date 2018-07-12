@@ -1,5 +1,6 @@
 # Load-Balancers-Assignment
-## sample war source https://github.com/efsavage/hello-world-war
+
+### sample war source https://github.com/efsavage/hello-world-war
 
 Load Balancers & Tomcat assignment for Devops Training 2018
 
