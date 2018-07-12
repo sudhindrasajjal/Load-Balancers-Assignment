@@ -1,11 +1,10 @@
 # Load-Balancers-Assignment
 
-Load Balancers assignment for Devops Training 2018
+Load Balancers & Tomcat assignment for Devops Training 2018
 
 ### Setup:
 
 1. Set up 3 tomcat docker containers with the following war https://github.com/efsavage/hello-world-war
-   
 
 2. Set up a HAProxy running on port 80 of your VM.
 
@@ -20,7 +19,7 @@ Using ACLs, implement a routing mechnanism such that any URI ending with **/back
 
    **Bonus**: Make the ACL case insensitive i.e., /backup, /Backup, /BACKUP, /BackUp, etc are valid URI. [5 points]
 
-   _(Rename the haproxy.cfg file to haproxy.cfg.2 and upload it along with a screenshot of the curl request and screenshot of manager UI)_ 
+   _(Rename the haproxy.cfg file to haproxy.cfg.2 and upload it along with a screenshot of the curl request and screenshot of the manager UI)_ 
 
 3. Using ACLs only, blacklist the other VMs' IP on haproxy. Try making a request from that VM now. [10 points]
 
