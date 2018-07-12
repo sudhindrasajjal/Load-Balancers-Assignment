@@ -20,7 +20,7 @@ Using ACLs, implement a routing mechnanism such that any URI ending with **/back
 
    **Bonus**: Make the ACL case insensitive i.e., /backup, /Backup, /BACKUP, /BackUp, etc are valid URI. [5 points]
 
-   _(Rename the haproxy.cfg file to haproxy.cfg.2 and upload it along with a screenshot of the curl request and screenshot f of manager UI)_ 
+   _(Rename the haproxy.cfg file to haproxy.cfg.2 and upload it along with a screenshot of the curl request and screenshot of manager UI)_ 
 
 3. Using ACLs only, blacklist the other VMs' IP on haproxy. Try making a request from that VM now. [10 points]
 
