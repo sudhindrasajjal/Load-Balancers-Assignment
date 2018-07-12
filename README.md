@@ -1,10 +1,10 @@
 # Load-Balancers-Assignment
 
-### sample war source https://github.com/efsavage/hello-world-war
-
 Load Balancers & Tomcat assignment for Devops Training 2018
 
 ### Setup:
+
+**sample war source https://github.com/efsavage/hello-world-war**
 
 1. Set up 3 tomcat docker containers
    - Change Connector port to 8080 , 8081 , 8082 respectively
