@@ -20,14 +20,14 @@ Load Balancers & Tomcat assignment for Devops Training 2018
 2. 
     a) enable Tomcat manager with role as manager and password as your adName **[5 points]**
 
-    b) Build the war **[5 points]**
-        - `mvn install` will build the war and place it in the target folder.
+    b) Build the war
+        - `mvn install` will build the war and place it in the target folder.  **[5 points]**
 
-    c) Deploy the war to Tomcats **[10 points]**
+    c) Deploy the war to Tomcats
         - By Copying to webapps
-        - And Via manager
+        - And Via manager   **[10 points]**
 
-    d) Change index.jsp in war to display "Hello World from backup" build again using `mvn clean install` and deploy it via tomcat manager on server-3 **[5 points]**
+    d) Change index.jsp in war to display "Hello World from backup" build again using `mvn clean install` and deploy it via tomcat manager on server-3  **[5 points]**
 
     **Bonus:**
 
