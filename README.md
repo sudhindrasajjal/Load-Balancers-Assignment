@@ -40,6 +40,7 @@ Load Balancers & Tomcat assignment for Devops Training 2018
 	* create folders app1_webapps and app2_webapps add copy the app1.war and app2.war to their respective folders
 	* Add 2 hosts entries with app1_webapps and app2_webapps as the new appbases
 	* The vhosts if working fine should pickup app1.war and app2.war from app1_webapps and app2_webapps for www.tomcat-app1.com and www.tomcat-app2.com.
+	* Enable jmx on tomcat and verify via JConsole the graphs while ab testing on haproxy
 
     f) verify the following OOM Exception on catalina.out when 0.0.0.0:8080/hello-world-war-1.0.0/oom is hit. **[5 points]**
     
