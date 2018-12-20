@@ -67,7 +67,4 @@ Load Balancers & Tomcat assignment for Devops Training 2018
 6. Change AccessLogValve valve pattern to print the "host" header in accesslog of tomcat in server-3
    (submit screenshot of access Logs and tomcat config file) **[5 points]**
 
-**Create a tarball of all the files and mail it to sudhindra.s@media.net**
-
-
 **\* Deadline is 15/07/2018 (Monday) 12:01 PM**
